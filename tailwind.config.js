@@ -5,6 +5,11 @@ module.exports = {
 
     container: {
       center: true, //container classları her zaman ortalanması için yaptık. tek tek yazmak yerine burda tanımladık.
+      screens: {
+        lg: '1140px',
+        xl: '1140px',
+        '2xl': '1140px',
+      },
     },
 
     extend: {
